@@ -13,6 +13,14 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 
 @import "~bulma/bulma.sass";
 
+//Title style
+h3 {
+  text-decoration: underline #F7DF1E;
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
 
 .center {
 	display: flex;
@@ -45,7 +53,7 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: white;
+  background: #F7DF1E;
 }
 
 /* Color/shape of burger icon bars on hover*/
@@ -55,8 +63,11 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
+  position: fixed;
   height: 48px;
   width:48px;
+  right: 36px;
+  top: 36px;
 }
 
 /* Color/shape of close button cross */

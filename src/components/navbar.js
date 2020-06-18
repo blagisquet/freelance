@@ -9,6 +9,7 @@ import styled from 'styled-components';
 const Navbar = ({ className }) => {
 	return (
 		<section className={className} id="accueil">
+			<div className="nav">
       <Menu right>
         <a className="menu-item" href="#home">Accueil</a>
         <a className="menu-item" href="#about">Qui suis-je ?</a>
@@ -17,12 +18,18 @@ const Navbar = ({ className }) => {
 				<a className="menu-item" href="#certifications">Mes certifications</a>
 				<a className="menu-item" href="#contact">Contact</a>
       </Menu>
+			</div>
 		</section>
 	);
 }
 export default styled(Navbar)`
 	section {
 		position: fixed;
+	}
+	.nav {
+		position: fixed;
+		height: 100px;
+		background-color: ${colors.black};
 	}
 	.menu-item {
 		font-size: 26px;
