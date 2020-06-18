@@ -32,13 +32,6 @@ const Experiences = ({ className }) => {
 }
 
 export default styled(Experiences)`
-  h3 {
-    text-decoration: underline ${colors.primary};
-    font-size: 32px;
-  }
-  h4 {
-    font-size: 1.5rem;
-  }
   span {
     font-style: italic;
   }

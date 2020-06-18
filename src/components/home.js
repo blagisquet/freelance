@@ -66,6 +66,7 @@ export default styled(home)`
   }
   .arrow {
     position: absolute;
+    z-index: 1;
     top: 92vh;
     left: 49%;
     transform: scale(1);
