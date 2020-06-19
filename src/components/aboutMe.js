@@ -17,7 +17,7 @@ const AboutMe = ({ className }) => {
           </figure>
         </div>
         <div className="column about">
-          <h3 className="title is-size-4 has-text-white has-text-centered-mobile">Qui suis-je ?</h3>
+          <h3 className="title is-size-3 has-text-white has-text-centered-mobile">Qui suis-je ?</h3>
           <p className="has-text-white">Passionné de développement et en particulier de Front-end, 
             je m'intéresse aussi énormément à l'UX/UI Design. 
             J'ai lancé ma micro-entreprise en 2020 et suis donc disponible pour vos projets.

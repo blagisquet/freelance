@@ -48,9 +48,9 @@ export default styled(home)`
     left: 36px;
     top: 33px;
 	}
-  @media (min-width:375px) and (max-width:768px) {
+  @media (min-width:437px) and (max-width:768px) {
     .home {
-      /* margin-top: 20vh; */
+      margin-top: 20vh;
     }
   }
   @media (min-width:769px) {
