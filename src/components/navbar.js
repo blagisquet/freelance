@@ -30,6 +30,8 @@ export default styled(Navbar)`
 		position: fixed;
 		height: 100px;
 		background-color: ${colors.black};
+
+		z-index: 8000;
 	}
 	.menu-item {
 		font-size: 26px;

@@ -66,9 +66,9 @@ export default styled(home)`
   }
   .arrow {
     position: absolute;
-    z-index: 1;
     top: 92vh;
     left: 49%;
+    z-index: 2;
     transform: scale(1);
     animation: pulse 5s ease infinite;
     @media (min-width:501px) and (max-width: 768px){
