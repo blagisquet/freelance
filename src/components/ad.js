@@ -13,7 +13,7 @@ const Ad = ({ className }) => {
         <h3 className="title is-size-4 has-text-white has-text-centered-mobile">Une idée ? Un projet ?</h3>
         <p>N'hésitez pas à me contacter pour en discuter.</p>
         <p>Le devis est gratuit</p>
-        <button className="button is-warning">Contact</button>
+        <a href="#contact" className="button is-warning has-text-weight-bold">Contact</a>
       </div>
     </section>
   );
@@ -29,7 +29,7 @@ export default styled(Ad)`
   h3 {
     padding-top: 2rem;
   }
-  button {
+  a {
     margin: 2rem 0;
   }
 `;
