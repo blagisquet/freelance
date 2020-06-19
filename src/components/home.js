@@ -17,7 +17,7 @@ const home = ({ className }) => {
         <div className="home">
           <h1 className="is-invisible">Baptiste Lagisquet Développeur Web et Mobile Freelance</h1>
           <h2 className="has-text-centered has-text-weight-bold title is-size-1">Baptiste Lagisquet</h2>
-          <h3 className="has-text-centered subtitle is-size-2">Développeur web et mobile freelance</h3>
+          <h2 className="has-text-centered subtitle is-size-2">Développeur web et mobile freelance</h2>
           <div className="has-text-centered reseaux">
             <a href="https://www.linkedin.com/in/baptiste-lagisquet-bb2a8937/" target="_blank" rel="noreferrer noopener"><span className="icon"><i className="fab fa-3x fa-linkedin"></i></span></a>
             <a href="https://github.com/blagisquet" target="_blank" rel="noreferrer noopener"><span className="icon"><i className="fab fa-3x fa-github-square"></i></span></a>
@@ -37,7 +37,7 @@ export default styled(home)`
   h2 {
     color: ${colors.white};
   }
-  h3 {
+  .subtitle {
     color: ${colors.primary};
   }
 
