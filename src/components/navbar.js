@@ -11,8 +11,7 @@ const Navbar = ({ className }) => {
 	return (
 		<section className={className} id="accueil">
 			<div className="nav">
-			<Menu right
-			>
+			<Menu right>
         <a className="menu-item" href="#home">Accueil</a>
         <a className="menu-item" href="#about">Qui suis-je ?</a>
         <a className="menu-item" href="#services">Mes services</a>
