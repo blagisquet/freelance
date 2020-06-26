@@ -40,7 +40,8 @@ export default styled(Feature)`
     display: flex;
     align-items: center;
     .odd {
-      order: -1;
+      order: -1 !important;
+      background: red;
     }
   `};
 `;
