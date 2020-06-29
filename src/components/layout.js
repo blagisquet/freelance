@@ -5,6 +5,7 @@ import './style.scss';
 import AboutMe from './aboutMe';
 import Ad from './ad';
 import Competences from './competences';
+import Contact from './contact';
 import Experiences from './experiences';
 import Footer from './footer';
 import Helmet from './helmet';
@@ -20,6 +21,7 @@ const Layout = ({ children }) => (
 		<Ad />
 		<Experiences />
 		<Competences />
+		<Contact />
 		<Footer />
 	</div>
 );
