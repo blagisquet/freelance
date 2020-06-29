@@ -36,9 +36,9 @@ const Contact = ({ className }) => {
           time: new Date(),
         })
       })
-      .cath(error => {
-        console.log(error)
-      })
+      // .cath(error => {
+      //   console.log(error)
+      // })
   }
 
   return (
