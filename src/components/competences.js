@@ -12,7 +12,7 @@ const Competences = ({ className }) => {
         <h3 className="title is-size-3 has-text-centered">Mes compétences</h3>
         {/*Mobile*/}
         <div className="columns is-mobile is-multiline is-centered">
-          {data.competences.map((competence, i) => <img key={competence.title} className="column is-one-fifth" src={competence.img} alt={competence.alt} />)}
+          {data.competences.map((competence, i) => <img key={competence.alt} className="column is-one-fifth" src={competence.img} alt={competence.alt} />)}
         </div>
       </div>
     </section>
